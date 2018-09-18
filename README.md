@@ -3,8 +3,8 @@ git and a recent version of NodeJS + npm need to be installed.
 
 ## Setup
 
-1. go to coding-day/server and `npm install`
-1. go to coding-day/coding-day-react and `npm install` 
+1. go to /server and `npm install`
+1. go to /coding-day-react and `npm install` 
 
 ## Server
 The server uses [json-server](https://github.com/typicode/json-server) under the hood and is serving a RESTful API under http://localhost:3000/ , allowing CORS by default. 
@@ -21,7 +21,7 @@ The endpoints are:
 
 ### Running
 
-To run it, go under coding-day/server and `npm start`
+To run it, go under /server and `npm start`
 
 
 ## React client
@@ -30,9 +30,9 @@ The frontend was generated using the [create-react-app](https://github.com/faceb
 
 ### Running
 
-To run in development mode, go under coding-day/coding-day-react and `npm start`
+To run in development mode, go under /coding-day-react and `npm start`
 
 
 ### Testing
 
-To run the tests, go under coding-day/coding-day-react and `npm test`
+To run the tests, go under /coding-day-react and `npm test`
