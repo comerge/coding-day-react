@@ -4,10 +4,10 @@ git and a recent version of NodeJS + npm need to be installed.
 ## Setup
 
 1. go to /server and `npm install`
-1. go to /coding-day-react and `npm install` 
+1. go to /coding-day-react and `npm install`
 
 ## Server
-The server uses [json-server](https://github.com/typicode/json-server) under the hood and is serving a RESTful API under http://localhost:3000/ , allowing CORS by default. 
+The server uses [json-server](https://github.com/typicode/json-server) under the hood and is serving a RESTful API under http://localhost:3000/ , allowing CORS by default.
 
 The endpoints are:
 
@@ -15,6 +15,7 @@ The endpoints are:
   /news
   /teams/
   /teams/{id}
+  /teams/{id}/users
   /users
   /users/{id}
 ```
@@ -26,7 +27,7 @@ To run it, go under /server and `npm start`
 
 ## React client
 
-The frontend was generated using the [create-react-app](https://github.com/facebook/create-react-app). 
+The frontend was generated using the [create-react-app](https://github.com/facebook/create-react-app).
 
 ### Running
 
