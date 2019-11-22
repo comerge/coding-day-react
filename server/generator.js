@@ -1,6 +1,6 @@
 const faker = require("faker")
 
-const generateUser = (id, teamId = undefined) => {
+const generateUser = (id, teamId) => {
   const name = faker.name.findName()
   const userName = name.toLowerCase().replace(/\s/g, "_")
 
@@ -47,7 +47,7 @@ const generateNews = (id, user) => {
 module.exports = () => {
   const getArr = (count) => Array(count).fill(0).map((x, index) => index + 1)
 
-  const teams = getArr(47).map(id => generateTeam(id))
+  const teams = getArr(47).map(generateTeam)
   const users = getArr(1000).map(id => (
     generateUser(
       id,
